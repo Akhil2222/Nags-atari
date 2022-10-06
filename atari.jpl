@@ -5,7 +5,7 @@ var:speed:#<1,1
 func:iter
 frect:0;0;400;400;white
 frect:{px;140;30;10;black
-var:ball;+<{ball,{speed
+var:ball;+<|{ball,{speed
 frect:{ball;#<10,10
 endfunc
 func:moveRight:
