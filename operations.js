@@ -3,6 +3,8 @@ isFunc = false
 title = ''
 document.body.innerHTML += '<canvas id="edit"></canvas>'
 document.getElementById('edit').style.width = '100%'
+document.getElementById('edit').style.height = '100%'
+
 context = document.getElementById('edit').getContext('2d')
 funcs = {
     'log':function(...str){ //Like Print in Python
