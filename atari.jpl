@@ -2,7 +2,7 @@ var:px;#|100
 var:move;#|3
 func:iter
 frect:0;0;400;400;white
-frect:{px;140;30;10
+frect:{px;140;30;10;black
 endfunc
 func:moveRight:
 var:px;+|{px,{move
@@ -10,4 +10,4 @@ endfunc
 func:moveLeft:
 var:px;-|{px,{move
 endfunc
-int:#|30,iter
+int:#|30;iter
