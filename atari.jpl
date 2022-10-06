@@ -11,3 +11,5 @@ func:moveLeft:
 var:px;-|{px,{move
 endfunc
 int:#|30;iter
+keybind:a;moveLeft
+keybind:d;moveRight
