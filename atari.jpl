@@ -1,7 +1,7 @@
 var:px;#|100
 var:move;#|3
-var:ball:#<50,50
-var:speed:#<1,1
+var:ball:#<|50,50
+var:speed:#<|1,1
 func:iter
 frect:0;0;400;400;white
 frect:{px;140;30;10;black
