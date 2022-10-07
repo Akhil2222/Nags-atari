@@ -19,6 +19,9 @@ var:fscond;>|{distball,0
 var:sscond;>|30,{distball
 log:{fscond;{sscond;{near;{distball
 if:&|{sscond,{fscond,{near;invy
+if:>|0,{bally;invy
+if:>|0,{ballx;invy
+if:>|{bally,400;invy
 flrect:{ball;#<|10,10;blue
 endfunc
 func:moveRight:
