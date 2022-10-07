@@ -24,6 +24,7 @@ if:&|{sscond,{fscond,{near;invy
 if:>|10,{bally;invy
 if:>|10,{ballx;invx
 if:>|{ballx,240;invx
+frect:240;0;10;400
 flrect:{ball;#<|10,10;blue
 endfunc
 func:moveRight:
