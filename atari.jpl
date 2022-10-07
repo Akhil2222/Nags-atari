@@ -20,7 +20,7 @@ var:sscond;>|30,{distball
 if:&|{sscond,{fscond,{near;invy
 if:>|30,{bally;invy
 if:>|30,{ballx;invy
-if:>|{bally,370;invy
+if:>|{bally,200;invy
 flrect:{ball;#<|10,10;blue
 endfunc
 func:moveRight:
