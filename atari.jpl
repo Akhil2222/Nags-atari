@@ -14,8 +14,8 @@ var:ball;+<|{ball,{speed
 var:bally;E|{ball,1
 var:ballx;E|{ball,0
 var:near;>|{bally,140
-var:distball;-<|{ballx,{px
-var:fscond;>|distball,-30
+var:distball;-|{ballx,{px
+var:fscond;>|distball
 var:sscond;>|distball,30
 var:sscond;x|{sscond
 log:{fscond;{sscond;{near;{distball
