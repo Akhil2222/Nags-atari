@@ -7,6 +7,9 @@ var:inx;#<|-1,1
 func:invy
 var:speed;*<|{speed,{iny
 endfunc
+func:invx
+var:speed;*<|{speed,{inx
+endfunc
 func:iter
 frect:0;0;400;400;white
 frect:{px;140;30;10;black
@@ -19,8 +22,8 @@ var:fscond;>|{distball,0
 var:sscond;>|30,{distball
 if:&|{sscond,{fscond,{near;invy
 if:>|10,{bally;invy
-if:>|10,{ballx;invy
-if:>|{bally,190;invy
+if:>|10,{ballx;invx
+if:>|{bally,190;invx
 flrect:{ball;#<|10,10;blue
 endfunc
 func:moveRight:
