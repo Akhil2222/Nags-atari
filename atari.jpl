@@ -4,7 +4,7 @@ var:ball;#<|50,50
 var:speed;#<|1,1
 var:iny;#<|1,-1
 var:inx;#<|-1,1
-func:inv
+func:invy
 var:speed;*<|{speed,{iny
 endfunc
 func:iter
@@ -19,7 +19,7 @@ var:fscond;>|distball,-30
 var:sscond;>|distball,30
 var:sscond;x|{sscond
 log:{fscond;{sscond;{near;{distball
-if:&|{sscond,{fscond,{near;
+if:&|{sscond,{fscond,{near;invy
 flrect:{ball;#<|10,10;blue
 endfunc
 func:moveRight:
